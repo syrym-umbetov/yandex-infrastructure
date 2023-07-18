@@ -1,12 +1,11 @@
 import { FC } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
-import { About } from "./pages/About";
 import { Home } from "./pages/Home";
 
 export const Application: FC = () => {
   const home = <Home />;
-  const about = <About />;
+  const about =  <Home />;
 
   return (
     <div>
